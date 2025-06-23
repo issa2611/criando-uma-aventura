@@ -1,0 +1,86 @@
+/* Estilo geral da página */
+body {
+    background-color: #E4C47B; /* Cor de fundo mais clara, que lembra o deserto egípcio */
+    color: #fff; /* Texto branco para contraste */
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta a altura para ocupar toda a tela */
+    margin: 0;
+    padding: 0;
+    background-image: url('img/deserto.jpg'); /* Imagem do deserto no fundo */
+    background-size: cover;
+}
+
+/* Estilo dos botões */
+button {
+    background-color: #64A712; /* Cor verde para botões, associando com a vegetação do Egito perto do Nilo */
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #558C14; /* Tom mais escuro para o efeito de hover */
+}
+
+/* Estilo do passo ativo */
+.passo {
+    display: none;
+    text-align: center;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+/* Estilo principal */
+main {
+    text-align: center;
+    max-width: 90%;
+    color: #fff;
+}
+
+/* Imagens */
+img {
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Sombras para dar destaque à imagem */
+}
+
+/* Adicionando estilo para o personagem adaptado ao Egito */
+.personagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.personagem img {
+    width: 200px; /* Definindo o tamanho da imagem do personagem */
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombras para dar realce */
+}
+
+/* Descrição do personagem */
+.personagem p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+    color: #FFD700; /* Cor dourada, que remete ao ouro e aos tesouros do Egito */
+}
+
+/* Detalhes extras */
+.personagem .detalhes {
+    font-size: 14px;
+    color: #F0E68C; /* Cor amarela suave, lembra o sol do deserto */
+    margin-top: 10px;
+    max-width: 80%;
+    line-height: 1.6;
+}
